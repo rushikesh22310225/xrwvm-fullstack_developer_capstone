@@ -1,7 +1,5 @@
 # Car Dealership Application
 
-## Repository Name
-car-dealership-app
+Repository Name: car-dealership-app
 
-## Project Name
-Car Dealership Application
+Project Name: Car Dealership Application
