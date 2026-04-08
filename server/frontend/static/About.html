@@ -2,27 +2,42 @@
 <html>
 <head>
     <title>About Us</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- REQUIRED CSS (VERY IMPORTANT) -->
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
-<body>
+<body class="container">
 
-<h1>About Us</h1>
+    <h1 class="text-center mt-4">About Us</h1>
 
-<div>
-    <img src="https://randomuser.me/api/portraits/men/32.jpg">
-    <h3>John Doe</h3>
-    <p>Frontend Developer</p>
-    <p>Expert in React.js and UI/UX design. Builds responsive and user-friendly interfaces.</p>
-    <p>Email: john@example.com</p>
-</div>
+    <!-- Description (IMPORTANT – you were missing this) -->
+    <p class="text-center">
+        Welcome to our Car Dealership application. We provide the best platform to explore dealers,
+        read reviews, and share your experience. Our team ensures high-quality service and user satisfaction.
+    </p>
 
-<div>
-    <img src="https://randomuser.me/api/portraits/women/44.jpg">
-    <h3>Jane Smith</h3>
-    <p>Backend Developer</p>
-    <p>Specializes in Django and REST APIs. Handles server logic and database management.</p>
-    <p>Email: jane@example.com</p>
-</div>
+    <div class="row mt-4">
+
+        <!-- Team Member 1 -->
+        <div class="col-md-6 text-center">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="img-fluid rounded" width="150">
+            <h3>John Doe</h3>
+            <p><strong>Frontend Developer</strong></p>
+            <p>Expert in React.js and UI/UX design. Builds responsive and user-friendly interfaces.</p>
+            <p>Email: john@example.com</p>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="col-md-6 text-center">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" class="img-fluid rounded" width="150">
+            <h3>Jane Smith</h3>
+            <p><strong>Backend Developer</strong></p>
+            <p>Specializes in Django and REST APIs. Handles server logic and database management.</p>
+            <p>Email: jane@example.com</p>
+        </div>
+
+    </div>
 
 </body>
 </html>
